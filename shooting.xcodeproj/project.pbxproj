@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		A51B25A026E2E78D00B6B89E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51B259F26E2E78D00B6B89E /* AppDelegate.swift */; };
 		A51B25A226E2E78D00B6B89E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A51B25A126E2E78D00B6B89E /* GameScene.sks */; };
-		A51B25A426E2E78D00B6B89E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A51B25A326E2E78D00B6B89E /* Actions.sks */; };
 		A51B25A626E2E78D00B6B89E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51B25A526E2E78D00B6B89E /* GameScene.swift */; };
 		A51B25A826E2E78D00B6B89E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51B25A726E2E78D00B6B89E /* GameViewController.swift */; };
 		A51B25AB26E2E78D00B6B89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51B25A926E2E78D00B6B89E /* Main.storyboard */; };
 		A51B25AD26E2E78E00B6B89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51B25AC26E2E78E00B6B89E /* Assets.xcassets */; };
+		A51B25B526E2EBBC00B6B89E /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51B25B426E2EBBC00B6B89E /* Target.swift */; };
+		A51B25B726E2EDA700B6B89E /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = A51B25B626E2EDA700B6B89E /* fire.sks */; };
+		A51B25B926E2FB0800B6B89E /* gun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A51B25B826E2FB0800B6B89E /* gun.mp3 */; };
+		A598D195270A61750014B732 /* gameOver.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A598D194270A61750014B732 /* gameOver.m4a */; };
+		A5C08AF326E5B0E600FE8C80 /* reload.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C08AF226E5B0E600FE8C80 /* reload.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A51B259C26E2E78D00B6B89E /* shooting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shooting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51B259F26E2E78D00B6B89E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A51B25A126E2E78D00B6B89E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A51B25A326E2E78D00B6B89E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A51B25A526E2E78D00B6B89E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A51B25A726E2E78D00B6B89E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A51B25AA26E2E78D00B6B89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A51B25AC26E2E78E00B6B89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A51B25AE26E2E78E00B6B89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51B25B426E2EBBC00B6B89E /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		A51B25B626E2EDA700B6B89E /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
+		A51B25B826E2FB0800B6B89E /* gun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gun.mp3; sourceTree = "<group>"; };
+		A598D194270A61750014B732 /* gameOver.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = gameOver.m4a; sourceTree = "<group>"; };
+		A5C08AF226E5B0E600FE8C80 /* reload.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = reload.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,16 @@
 			children = (
 				A51B259F26E2E78D00B6B89E /* AppDelegate.swift */,
 				A51B25A126E2E78D00B6B89E /* GameScene.sks */,
-				A51B25A326E2E78D00B6B89E /* Actions.sks */,
 				A51B25A526E2E78D00B6B89E /* GameScene.swift */,
+				A51B25B426E2EBBC00B6B89E /* Target.swift */,
+				A51B25B626E2EDA700B6B89E /* fire.sks */,
 				A51B25A726E2E78D00B6B89E /* GameViewController.swift */,
 				A51B25A926E2E78D00B6B89E /* Main.storyboard */,
 				A51B25AC26E2E78E00B6B89E /* Assets.xcassets */,
 				A51B25AE26E2E78E00B6B89E /* Info.plist */,
+				A51B25B826E2FB0800B6B89E /* gun.mp3 */,
+				A5C08AF226E5B0E600FE8C80 /* reload.mp3 */,
+				A598D194270A61750014B732 /* gameOver.m4a */,
 			);
 			path = shooting;
 			sourceTree = "<group>";
@@ -127,10 +139,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51B25B926E2FB0800B6B89E /* gun.mp3 in Resources */,
+				A5C08AF326E5B0E600FE8C80 /* reload.mp3 in Resources */,
 				A51B25AB26E2E78D00B6B89E /* Main.storyboard in Resources */,
+				A51B25B726E2EDA700B6B89E /* fire.sks in Resources */,
 				A51B25A226E2E78D00B6B89E /* GameScene.sks in Resources */,
+				A598D195270A61750014B732 /* gameOver.m4a in Resources */,
 				A51B25AD26E2E78E00B6B89E /* Assets.xcassets in Resources */,
-				A51B25A426E2E78D00B6B89E /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +158,7 @@
 			files = (
 				A51B25A626E2E78D00B6B89E /* GameScene.swift in Sources */,
 				A51B25A826E2E78D00B6B89E /* GameViewController.swift in Sources */,
+				A51B25B526E2EBBC00B6B89E /* Target.swift in Sources */,
 				A51B25A026E2E78D00B6B89E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = micheleCataniApps.shooting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -311,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = micheleCataniApps.shooting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
